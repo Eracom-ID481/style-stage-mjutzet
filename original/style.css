@@ -21,7 +21,7 @@
   --color-text: #412d86;
   --color-light: #fff;
   --color-anchor: #3a00ff;
-  --font-family: "Baloo 2", sans-serif;
+  --font-family: 'Kumbh Sans', sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
   --font-size-h2: 3rem;
@@ -59,7 +59,11 @@ body {
   font-size: 100%;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+
 
 /* Make images easier to work with */
 img {
@@ -367,7 +371,7 @@ nav ul {
   position: relative;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
-  /*! 
+  /*!
     * SVGs from Hero Patterns
     * @link http://www.heropatterns.com/
     */ }

@@ -8,6 +8,7 @@
 *::after {
   box-sizing: border-box;
 }
+font-family: 'Kumbh Sans', sans-serif;
 
 /* Remove default margin */
 body,
@@ -19,23 +20,31 @@ h5,
 h6 {
   margin: 0;
 }
-font-family: 'Ubuntu', sans-serif;
+
 html {
   overflow-x: hidden;
 }
 
 /* Set core body defaults */
+
 body {
   min-height: 100vh;
   font-size: 100%;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
   overflow-x: hidden;
-  background-color: #000000
+  background-color: #DAFCEF
+
 
 }
+.container1 {
+  background-color: #000000
+}
+
 p {
-  color: #ffff
+  display: block;
+  max-width: 100%;
+  color: #000000
 }
 
 /* Make images easier to work with */
