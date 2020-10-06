@@ -1,3 +1,4 @@
+
 /*
  * [Modified] Modern CSS Reset
  * @link https://github.com/hankchizljaw/modern-css-reset
@@ -8,7 +9,6 @@
 *::after {
   box-sizing: border-box;
 }
-font-family: 'Kumbh Sans', sans-serif;
 
 /* Remove default margin */
 body,
@@ -26,25 +26,12 @@ html {
 }
 
 /* Set core body defaults */
-
 body {
   min-height: 100vh;
   font-size: 100%;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
   overflow-x: hidden;
-  background-color: #DAFCEF
-
-
-}
-.container1 {
-  background-color: #000000
-}
-
-p {
-  display: block;
-  max-width: 100%;
-  color: #000000
 }
 
 /* Make images easier to work with */
@@ -71,4 +58,95 @@ select {
   }
 }
 
+
 /* Fin du CSS Reset */
+
+
+:root {
+  --color-1: #9fc5b6; /*vert */
+  --color-primary-alt: #6f6ffd; /* */
+  --color-2: #926755;/* brun */
+  --color-background: #fff6ee; /* beige */
+  --color-text: #000000;
+  --color-light: #fff;
+  --color-anchor: #3a00ff;
+  --font-family: 'Kumbh Sans', sans-serif;
+  --strong: 900;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.3rem;
+  --font-size-h3: 1.50rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: var(--strong);
+  line-height: 2;
+  margin-bottom: 2em; }
+
+h1 {
+  font-size: var(--font-size-h1);
+  color: var(--color-1);
+  text-align: center;
+  }
+
+h2 {
+  font-size: var(--font-size-h2);
+  text-align: center;
+  color: var(--color-1)
+ }
+
+h3 {
+  font-size: var(--font-size-h3);
+  color: var(--color-2);
+  text-align: center
+   }
+
+h4 {
+  font-size: var(--font-size-h4); }
+
+ul, ol {
+  text-align: center;
+  list-style: none; }
+
+
+
+
+p,
+li {
+  font-size: var(--font-size-text); }
+
+p {
+  margin: 0 0 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+  nav ul {
+    display: flex;
+    justify-content: center;
+
+    list-style: none; }
+    nav ul a {
+      display: inline-grid;
+      padding: 0.5rem;
+      color: var(--color-1);
+      font-size: 1.25rem;
+      text-decoration: none; }
+      nav ul a::before {
+        width: 100%;
+        height: 0.33em;
+        background-color: var(--color-1);
+        opacity: 0.15;
+        content: ""; }
+      nav ul a:hover::before, nav ul a:focus::before {
+        opacity: 1; }
+    nav ul li {
+      margin: 0.25rem; }
+
+      header {
+
+        display: grid;
+        text-align: center; }
