@@ -79,6 +79,30 @@ select {
   --font-size-text: 1.15rem;
   --border-radius: 8px; }
 
+header{
+  background-color: var(--color-background);
+}
+
+
+aside {
+  background-color: var(--color-background);
+}
+
+article {
+  background-color: var(--color-1);
+}
+
+
+article  h2 {
+  color: var(--color-background);
+}
+
+article.container {
+  background-color: #000000;
+  }
+
+
+
 h1,
 h2,
 h3,
@@ -91,6 +115,8 @@ h1 {
   font-size: var(--font-size-h1);
   color: var(--color-1);
   text-align: center;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
   }
 
 h2 {
